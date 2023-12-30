@@ -50,6 +50,8 @@ color: #4d5ae5;
 display: flex;
 align-items: center;
 margin-right: 76px;
+display: inline-block;
+margin-bottom: 16px;
 
 }
 .header-wrap{
@@ -229,7 +231,7 @@ color:#434455;
 }
 .example{
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
@@ -239,15 +241,16 @@ color:#434455;
 }
 .example-card-text{
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .footertext{
-  margin-top: 16px;
   color:#F4F4FD;
 
 }
 .footer{
   background-color: #2E2F42;
   color: #ffffff;
+  padding: 100px 0 
 }
 
 .headertwo{
