@@ -1,0 +1,162 @@
+
+body{
+  font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #434455 ;
+    background-color:#ffffff;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+    font-family: inherit;
+  
+  }
+h2,h3{
+  color:inherit;
+}
+
+.logo{
+  font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 0.03em;
+line-height: 1.17;
+text-transform: uppercase;
+color: #4d5ae5;
+
+}
+
+.view{
+  color:#2e2f42;
+}
+.viewfooter{
+  color: #f4f4fd;
+}
+.list {
+    list-style: none;
+}
+.link{
+  color: #2e2f42 ;
+}
+.site-nav .link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+  }
+  .site-nav .link:hover,
+  .site-nav .link:focus {
+    color:#404BBF;
+
+  }
+  .site-nav .current {
+    color:#404BBF;
+    ;
+  }
+  address{
+    font-style: normal;
+  }
+  .telmail {
+    color:#434455;
+    ;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  .telmail:hover,
+  .telmail:focus {
+    color:#404BBF;
+    ;
+  }
+  .order{
+    background-color:#2E2F42;
+    color: #ffffff;
+  }
+  .accentpage{
+
+  
+font-size: 56px;
+font-weight: 700;
+letter-spacing: 0.02em;
+text-align: center;
+line-height: 1.07
+
+  }
+  .button {
+
+background-color:#4D5AE5;
+color: #ffffff;
+font-size: 16;
+
+    line-height: 1.5;
+    text-align: center;
+letter-spacing: 0.04em;
+
+
+cursor: pointer;
+font-weight: 500;
+
+
+
+  }
+ .button:hover,
+ .button:focus{
+    background-color:#404BBF;
+
+ }
+ .piple{
+  background-color: #F4F4FD
+ }
+ .visible{
+  visibility: hidden;
+ }
+
+
+ 
+.headerthree{
+  font-size: 20px;
+
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.4px;
+color:#2e2f42;
+
+
+}
+.card{
+  background-color: #FFFFFF ;
+}
+.text{
+
+font-size: 16px;
+
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.32px;
+color:#434455;
+}
+.footertext{
+  color:#F4F4FD;
+
+}
+.footer{
+  background-color: #2E2F42;
+  color: #ffffff;
+}
+
+.headertwo{
+
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+text-align: center;
+color: #2e2f42 ;
+}
+
