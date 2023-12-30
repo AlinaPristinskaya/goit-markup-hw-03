@@ -60,6 +60,7 @@ margin-right: 76px;
 }
 .nav-wrap{
   display: flex;
+  align-items: center; 
 }
 
 .view{
@@ -73,6 +74,7 @@ margin-right: 76px;
 }
 .link{
   color: #2e2f42 ;
+  padding: 24px 0
 }
 .site-nav{
   display: flex;
@@ -117,22 +119,25 @@ margin-right: 76px;
   }
   .order-content{
     
-    text-align: center;
+  
     
   }
   .accentpage{
-
-  
+    max-width: 496px; 
 font-size: 56px;
 font-weight: 700;
 letter-spacing: 0.02em;
 text-align: center;
 line-height: 1.07;
 margin-bottom: 48px;
+text-align: center;
 
 
   }
   .button {
+    display: block; 
+    min-width: 169px;
+    height: 56px;
 padding: 16px 32px;
 background-color:#4D5AE5;
 color: #ffffff;
@@ -142,6 +147,7 @@ text-align: center;
 letter-spacing: 0.04em;
 cursor: pointer;
 font-weight: 500;
+border: none; 
 border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
@@ -164,7 +170,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
  }
  .piople-wrap{
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
  }
  .visually-hidden {
   position: absolute;
@@ -184,7 +190,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .about-content{
   display:flex;
-  column-gap:24px;
+  gap:24px;
 }
 .about-item{
   width: calc((100% - 24 * 3px) / 4);
