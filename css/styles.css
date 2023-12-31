@@ -26,6 +26,7 @@ ol {
 }
 img{
   display: block;
+  width: 100%;
 }
 .container { 
     max-width:1158px;
